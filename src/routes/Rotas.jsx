@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route  } from "react-router-dom";
 
-import Home from "../pages/home/Home";
-import Porfolio from "../pages/Portfolio/Portfolio";
-import Sobre from "../pages/Sobre/Sobre";
+import Home from "../pages/home/Home.jsx";
+import Porfolio from "../pages/Portfolio/Portfolio.jsx";
+import Sobre from "../pages/Sobre/Sobre.jsx";
 
 function Rotas() {
     return (
