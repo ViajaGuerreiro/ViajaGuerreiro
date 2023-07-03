@@ -3,7 +3,7 @@
 <h1>> Formação/Experiência </h1>
 <p>Sou formado em Técnico de Análise e Desenvolvimento de Sistemas já realizei alguns trabalhos freelances como o site https://ctt300.com.br, e alguns outros projetos voluntarios, atualmente sou professor e dou aulas para desenvolvimento fullStack</p>
 
-<!--site: https://github.com/ViajaGuerreiro -->
+<h3>Site: https://viajaguerreiro.github.io/ViajaGuerreiro/<h3/>
 <h2>Instagram: @V1ajaGurre1ro</h2>
 
 <h1>> Habilidades/Competências</h1>
