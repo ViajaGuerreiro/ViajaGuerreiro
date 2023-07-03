@@ -1,16 +1,30 @@
-### Hi there 👋
+<h2>Ola Seja Bem Vindo eu sou <strong>Thiago Lacerda</strong>👋</h2> 
 
-<!--
-**ViajaGuerreiro/ViajaGuerreiro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1>> Formação/Experiência </h1>
+<p>Sou formado em Técnico de Análise e Desenvolvimento de Sistemas já realizei alguns trabalhos freelances como o site https://ctt300.com.br, e alguns outros projetos voluntarios, atualmente sou professor e dou aulas para desenvolvimento fullStack</p>
 
-Here are some ideas to get you started:
+<!--site: https://github.com/ViajaGuerreiro -->
+<h2>Instagram: @V1ajaGurre1ro</h2>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h1>> Habilidades/Competências</h1>
+<ul>
+  <li>Unreal Engine</li>
+  <li>Unity</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <liJavaScriptli>
+  <li>React</li>
+  <li>NEXT</li>
+  <li>Node</li>
+  <li>Docker</li>
+  <li>MySQL</li>
+  <li>PHP</li>
+  <li>C#</li>
+  <li>GIT</li>
+  <li>Inglês Avançado</li>
+  <li>Pacote Office(Word, Excel, PowerPoint) básico</li>
+</ul>
+
+<h2>> Sobre mim</h2>
+<p>Sou uma pessoa extrovertida, muito curioso quando me interesso por algo me dedico muito para aprender tudo sobre o assunto,
+gosto muito de tecnologia, sou bem adaptavel a novos ambientes, experiencai em lidar diretamente com clientes, atualmente busco me desenvolver mais em desenvolvimento de jogos utilizando alguns motores gráficos como Unreal Engine e Unity</p>
