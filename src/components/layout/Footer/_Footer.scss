@@ -1,0 +1,37 @@
+footer {
+    background-color: $background-primary;
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+
+    a {
+        margin: 0 .5em;
+
+        img {
+            height: 25px;
+            transition: .6s;
+
+            &:hover { 
+                transform: scale(1.5) rotate(360deg);
+            }
+        }
+    }
+
+    
+}
+
+
+//especial
+.position_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+//responsividade
+
+@media(max-width: 800px) {
+    .position_footer {
+        position: static;
+    }
+}

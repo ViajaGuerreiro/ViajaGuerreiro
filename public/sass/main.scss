@@ -1,0 +1,30 @@
+//variables
+@import './variables';
+
+//fontes
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+//Reset
+@import "./reset";
+
+//keyframes
+@import './keyframes';
+
+//--------------Layout---------------------//
+
+//Navbar
+@import "../../src/components/layout/NavBar/NavBar";
+
+//Container
+@import '../../src/components/layout/Container/Container';
+
+//Footer
+@import '../../src/components/layout/Footer/Footer';
+
+//---------------Pages-----------------------//
+
+@import '../../src/pages/Home/Home';
+
+@import '../../src/pages/Portfolio/Portfolio';
+
+@import '../../src/pages/Sobre/Sobre'

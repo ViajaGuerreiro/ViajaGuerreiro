@@ -1,0 +1,43 @@
+.sobre_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    text-align: center;
+
+    .perfil_img {
+
+        img {
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            border: 3px solid $secondary-color;
+        }
+    }
+
+    .about {
+        h1 {
+            color: $secondary-color;
+            font-size: 3em;
+            margin: .8em 0;
+        }
+
+        p {
+            font-size: 2em;
+        }
+    }
+}
+
+//responsividade
+@media(max-width: 800px) {
+    .about {
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+    }
+}
