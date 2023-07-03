@@ -14,7 +14,7 @@ function NavBar() {
         <header>
             <img className='Logo' src={Logo} alt="Logo" title="Logo do site" />
             <nav className={openNav ? 'active_nav' : ''}>
-                <Link to='/'>Inicio</Link>
+                <Link to='/ViajaGuerreiro'>Inicio</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/sobre">Sobre</Link>
             </nav>

@@ -9,7 +9,7 @@ function Rotas() {
         <BrowserRouter>
             <>
                 <Routes>
-                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/ViajaGuerreiro" element={<Home />}></Route>
                     
                     <Route path="/portfolio" element={<Porfolio />}></Route>
 
