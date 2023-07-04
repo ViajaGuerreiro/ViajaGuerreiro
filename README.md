@@ -27,4 +27,4 @@
 
 <h2>> Sobre mim</h2>
 <p>Sou uma pessoa extrovertida, muito curioso quando me interesso por algo me dedico muito para aprender tudo sobre o assunto,
-gosto muito de tecnologia, sou bem adaptavel a novos ambientes, experiencai em lidar diretamente com clientes, atualmente busco me desenvolver mais em desenvolvimento de jogos utilizando alguns motores gráficos como Unreal Engine e Unity</p>
+gosto muito de tecnologia, sou bem adaptavel a novos ambientes, experiencia em lidar diretamente com clientes, atualmente busco me desenvolver mais em desenvolvimento de jogos utilizando alguns motores gráficos como Unreal Engine e Unity</p>
