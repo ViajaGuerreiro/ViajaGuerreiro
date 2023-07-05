@@ -16,8 +16,9 @@ import teste3 from '/img/teste3.jpg'
 
 
 function Porfolio() {
-    const [project, setProject] = useState(2)
     const {openNav} = useContext(OpenNavContext)
+    /*
+    const [project, setProject] = useState(2)
 
     function nextProject() {
         
@@ -28,7 +29,7 @@ function Porfolio() {
             break
         case 2:
             console.log("imagem e texto "+ project)
-    }
+    }*/
 
     return (
         <>
