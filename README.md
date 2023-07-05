@@ -3,7 +3,7 @@
 <h1>> Formação/Experiência </h1>
 <p>Sou formado em Técnico de Análise e Desenvolvimento de Sistemas já realizei alguns trabalhos freelances como o site https://ctt300.com.br, e alguns outros projetos voluntarios, atualmente sou professor e dou aulas para desenvolvimento fullStack</p>
 
-<!--site: https://github.com/ViajaGuerreiro -->
+<h3>Site(em desenvolvimento): https://viajaguerreiro.github.io/ViajaGuerreiro/<h3/>
 <h2>Instagram: @V1ajaGurre1ro</h2>
 
 <h1>> Habilidades/Competências</h1>
@@ -27,4 +27,4 @@
 
 <h2>> Sobre mim</h2>
 <p>Sou uma pessoa extrovertida, muito curioso quando me interesso por algo me dedico muito para aprender tudo sobre o assunto,
-gosto muito de tecnologia, sou bem adaptavel a novos ambientes, experiencai em lidar diretamente com clientes, atualmente busco me desenvolver mais em desenvolvimento de jogos utilizando alguns motores gráficos como Unreal Engine e Unity</p>
+gosto muito de tecnologia, sou bem adaptavel a novos ambientes, experiencia em lidar diretamente com clientes, atualmente busco me desenvolver mais em desenvolvimento de jogos utilizando alguns motores gráficos como Unreal Engine e Unity</p>
