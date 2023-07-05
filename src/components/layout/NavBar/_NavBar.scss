@@ -4,9 +4,17 @@ header {
     display: flex;
     justify-content: space-between;
     
-    img {
-        padding: .5em;
+    .logo_container {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            padding: .4em;
+            height: 65px;
+            width: 65px;
+        }
     }
 
     nav {
@@ -36,6 +44,7 @@ header {
 @media(max-width:800px) {
     header {  
         height: 9vh;
+
         nav {
             position: absolute;
             top: 9vh;

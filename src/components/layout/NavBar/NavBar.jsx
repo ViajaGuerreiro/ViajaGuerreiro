@@ -1,24 +1,27 @@
+//react
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useContext } from 'react'
 
-import Logo from '/img/vite.svg'
+//context
+import { OpenNavContext } from '../../context/openNavContext'
+
+//imagens
+import Logo from '/img/LogoVG.png'
 
 function NavBar() {
-    const [openNav, setOpenNav] = useState(false)
-    
-    const handleNav = () => {
-        setOpenNav(!openNav)
-    }
+    const {openNav, toggleNav} = useContext(OpenNavContext)
 
     return (
         <header>
-            <img className='Logo' src={Logo} alt="Logo" title="Logo do site" />
+            <div className="logo_container">
+                <img className='Logo' src={Logo} alt="Logo" title="Logo do site" />
+            </div>
             <nav className={openNav ? 'active_nav' : ''}>
                 <Link to='/ViajaGuerreiro'>Inicio</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/sobre">Sobre</Link>
             </nav>
-            <div className={`Mobile ${openNav ? 'active_Mobile' : ''}`} onClick={handleNav}>
+            <div className={`Mobile ${openNav ? 'active_Mobile' : ''}`} onClick={toggleNav}>
                 <div className='line1'></div>
                 <div className="line2"></div>
                 <div className="line3"></div>

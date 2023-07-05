@@ -1,5 +1,9 @@
 //react
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+
+//context
+import { OpenNavContext } from '../../components/context/openNavContext'
 
 //imagens
 import apresentacao from '/img/apresentacao_blue_animated.gif'
@@ -12,15 +16,17 @@ import Container from "../../components/layout/Container/Container"
 import Footer from "../../components/layout/Footer/Footer"
 
 function Home() {
+    const {openNav} = useContext(OpenNavContext)
+    
     return (
         <>
             <NavBar />
             <Container>
                 <section className="home_section apresentacao">
                     <div>
-                        <h2><span>Olá,</span></h2>
-                        <h2>Seja bem Vindo</h2>
-                        <h2>Eu sou <span>Thiago Lacerda</span></h2>
+                        <h2 className={openNav ? "active" : ""}><span>Olá,</span></h2>
+                        <h2 className={openNav ? "active" : ""}>Seja bem Vindo</h2>
+                        <h2 className={openNav ? "active" : ""}>Eu sou <span>Thiago Lacerda</span></h2>
                     </div>
 
                  

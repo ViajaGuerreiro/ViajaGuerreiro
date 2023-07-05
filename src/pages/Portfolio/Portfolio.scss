@@ -5,21 +5,21 @@
         background-color: transparent;
         border: none;
         position: absolute;
-        top: 50%;
+        top: 70%;
         cursor: pointer;
     }
 
     .anterior {
-        left: 10px;
+        left: 8px;
     }
 
     .proximo {
         rotate: 180deg;
-        right: 10px;
+        right: 8px;
     }
 
     .section_caroussel {
-        width: 70%;
+        width: 65%;
         height: 70vh;
         margin: .5em auto;
 
@@ -48,6 +48,7 @@
 
         a {
             margin-top: .4em;
+            margin-bottom: .5em;
             color: $secondary-color;
             font-size: 1.7em;
 
@@ -56,5 +57,27 @@
             }
         }
 
+    }
+}
+
+@media (max-width: 800px) {
+    .section_button {
+        .section_caroussel {
+            width: 75%;
+            height: 50vh;
+            visibility: visible;
+        }
+
+        .active {
+            width: 75%;
+            height: 50vh;
+            visibility: hidden;
+        }
+
+        .section_detalhes {
+            a {
+               font-size: 1.4em; 
+            }
+        }
     }
 }

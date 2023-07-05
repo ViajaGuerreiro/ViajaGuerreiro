@@ -1,10 +1,13 @@
 import HeroSlider, {Slide} from "hero-slider";
 
 function Slider({imagem_first, imagem_second,imagem_third}) {
+    const {innerWidth: width} = window
+    console.log(innerWidth)
+
     return (
         <>
             <HeroSlider
-                height={"70vh"}
+                height={innerWidth >= 800 ? "70vh" : "50vh"}
                 autoplay= {{
                     autoplayDuration:2000,
                     autoplayDebounce: 0
@@ -20,12 +23,14 @@ function Slider({imagem_first, imagem_second,imagem_third}) {
                 accessibility={{
                     shouldDisplayButtons: false,
                 }}
+                
 
             >
                 <Slide
                     background= {{
                         backgroundImageSrc: imagem_first,
-                        backgroundAttachment: "fixed"
+                        backgroundAttachment: "fixed",
+                        backgroundColor: "",
                     }}
                 />
 

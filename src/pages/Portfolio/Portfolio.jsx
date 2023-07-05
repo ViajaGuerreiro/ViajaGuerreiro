@@ -1,3 +1,6 @@
+import { useContext, useState } from "react";
+import { OpenNavContext } from "../../components/context/openNavContext";
+
 //layout
 import NavBar from "../../components/layout/NavBar/NavBar";
 import Container from "../../components/layout/Container/Container"
@@ -13,6 +16,20 @@ import teste3 from '/img/teste3.jpg'
 
 
 function Porfolio() {
+    const [project, setProject] = useState(2)
+    const {openNav} = useContext(OpenNavContext)
+
+    function nextProject() {
+        
+    }
+    switch (project) {
+        case 1:
+            console.log("imagem e texto  "+ project)
+            break
+        case 2:
+            console.log("imagem e texto "+ project)
+    }
+
     return (
         <>
             <NavBar />
@@ -20,7 +37,7 @@ function Porfolio() {
                 <section className="section_button">
                     <button className="anterior"><img src={seta} alt="anterior"/></button>
                     <button className="proximo"><img src={seta} alt="proximo" /></button>
-                    <section className="section_caroussel">
+                    <section className={`section_caroussel ${openNav ? "active" : ""}`}>
                         <Slider imagem_first={teste1} imagem_second={teste2} imagem_third={teste3} />
                     </section>
                     <section className="section_detalhes">
