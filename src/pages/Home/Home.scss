@@ -17,8 +17,11 @@
     img {
         margin: 1em auto;
         height: 450px;
-        animation: animetedImgs 3s ease-in-out;
-        animation-iteration-count: infinite;
+        animation: animetedImgs 3s ease-in-out infinite;
+    }
+
+    .activeNav {
+        animation: none;
     }
 }
 

@@ -29,7 +29,7 @@ function Home() {
                         <h2 className={openNav ? "active" : ""}>Eu sou <span>Thiago</span></h2>
                     </div>
                  
-                        <img src={apresentacao} alt="" />
+                        <img className={openNav ? "activeNav" : ""} src={apresentacao} alt="" />
                   
                 </section>
 
