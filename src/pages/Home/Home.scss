@@ -26,7 +26,7 @@
 
         h2 {
             margin: .5em 0;
-            animation: apresentacao 2s;
+            animation: apresentacao 4s;
 
             span {
                 color: $secondary-color;
@@ -49,7 +49,7 @@
             color: $primary-color;
             transition-duration: .4s;
             transition-delay: 0.05s;
-            animation: apresentacao 2s;
+            animation: apresentacao 4s;
 
             &:hover {
                 color: $secondary-color;

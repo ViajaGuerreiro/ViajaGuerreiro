@@ -6,9 +6,9 @@ import { useContext } from 'react'
 import { OpenNavContext } from '../../components/context/openNavContext'
 
 //imagens
-import apresentacao from '/img/apresentacao_blue_animated.gif'
-import portfolio from '/img/portfolio_blue_animated.gif'
-import sobre from '/img/sobre_blue_animated.gif'
+import apresentacao from '/img/apresentacao_dark_animated.gif'
+import portfolio from '/img/portfolio_dark_animated.gif'
+import sobre from '/img/sobre_dark_animated.gif'
 
 //layout
 import NavBar from "../../components/layout/NavBar/NavBar"

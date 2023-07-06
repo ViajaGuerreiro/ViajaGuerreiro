@@ -1,12 +1,11 @@
 import HeroSlider, {Slide} from "hero-slider";
 
 function Slider({imagem_first, imagem_second,imagem_third}) {
-    const {innerWidth: width} = window
 
     return (
         <>
             <HeroSlider
-                height={width >= 800 ? "70vh" : "50vh"}
+                height="70vh"
                 autoplay= {{
                     autoplayDuration:2000,
                     autoplayDebounce: 0
