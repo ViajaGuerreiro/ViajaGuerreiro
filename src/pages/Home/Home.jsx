@@ -6,9 +6,9 @@ import { useContext } from 'react'
 import { OpenNavContext } from '../../components/context/openNavContext'
 
 //imagens
-import apresentacao from '/img/apresentacao_dark_animated.gif'
-import portfolio from '/img/portfolio_dark_animated.gif'
-import sobre from '/img/sobre_dark_animated.gif'
+import apresentacao from '/img/apresentacao.svg'
+import portfolio from '/img/portfolio.svg'
+import sobre from '/img/sobre.svg'
 
 //layout
 import NavBar from "../../components/layout/NavBar/NavBar"
@@ -28,7 +28,6 @@ function Home() {
                         <h2 className={openNav ? "active" : ""}>Seja bem Vindo</h2>
                         <h2 className={openNav ? "active" : ""}>Eu sou <span>Thiago</span></h2>
                     </div>
-
                  
                         <img src={apresentacao} alt="" />
                   

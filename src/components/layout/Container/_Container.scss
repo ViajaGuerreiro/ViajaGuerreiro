@@ -1,4 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
+    background-color: $background-primary;
+    background-image: url("/public/img/backgroundApresentacao.png");
+    object-fit: cover;
 }
