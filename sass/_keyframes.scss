@@ -1,13 +1,10 @@
 @keyframes apresentacao {
     from {
-        transform: translateX(-100vw) rotate(180deg);
+        opacity: 0;
     }
 
-    50% {
-        transform: translateX(30vw) rotate(180deg);
-    }
 
     to {
-        transform: translateX(0) rotate(-360deg);
+        opacity: 1;
     }
 }
