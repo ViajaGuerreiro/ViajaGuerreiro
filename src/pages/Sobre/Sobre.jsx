@@ -17,7 +17,7 @@ function Sobre() {
                     </div>
                     <div className="about">
                         <h1> Formação/Experiência </h1>
-                        <p>Sou formado em Técnico de Análise e Desenvolvimento de Sistemas já realizei alguns trabalhos freelances, e alguns outros projetos voluntarios, atualmente sou professor e dou aulas para iniciantes em desenvolvimento web fullStack</p>
+                        <p>Sou formado em Técnico de Análise e Desenvolvimento de Sistemas já realizei alguns trabalhos freelances, e alguns outros projetos voluntarios, atualmente dou aulas para iniciantes em desenvolvimento web fullStack</p>
 
                         <h1>Tecnologias</h1>
                         <ul>

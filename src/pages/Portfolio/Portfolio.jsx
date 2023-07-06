@@ -54,7 +54,7 @@ function Porfolio() {
     //Textos
     const texto = ["Pizzaria web é um projeto desenvolvido para os clientes fazerem os pedidos diretamente pelo site desenvolvido em HTML, CSS e JavaScript", "Desenvolvimento do site CTT300 para o estande de tiro de uma cliente, foi feito um Figma, e desenvolvido em HTML,CSS,javaScript e por ultimo hospedado", "PokeNext é um projeto desenvolvido em NEXT.Js totalmente responsiva consumidora de uma API, é uma PokeDesk Virtual, com informações sobre os pokemons"]
     //github
-    const github = ["", "", "github.com/ViajaGuerreiro/pokenext"]
+    const github = ["", "", "https://github.com/ViajaGuerreiro/pokenext"]
     //link
     const links = ["", "https://ctt300.com.br/index.html", "https://pokenext-blue.vercel.app"]
 
@@ -89,8 +89,8 @@ function Porfolio() {
                     <section className="section_detalhes">
                         <h1>{title[project]}</h1>
                         <p>{texto[project]}</p>
-                        <a href={`${github[project]}`}>{github[project]}</a>
-                        <a href={`${links[project]}`} target="_blank">{links[project]}</a>
+                        <a href={`${github[project]}`}>{github[project] != "" ? "GitHub" : ""}</a>
+                        <a href={`${links[project]}`} target="_blank">{links[project] != "" ? "Acesse o site" : ""}</a>
                     </section>
                 </section>
             </Container>

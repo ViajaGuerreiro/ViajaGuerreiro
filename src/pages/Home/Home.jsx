@@ -26,7 +26,7 @@ function Home() {
                     <div>
                         <h2 className={openNav ? "active" : ""}><span>Olá,</span></h2>
                         <h2 className={openNav ? "active" : ""}>Seja bem Vindo</h2>
-                        <h2 className={openNav ? "active" : ""}>Eu sou <span>Thiago Lacerda</span></h2>
+                        <h2 className={openNav ? "active" : ""}>Eu sou <span>Thiago</span></h2>
                     </div>
 
                  
@@ -37,7 +37,7 @@ function Home() {
                 <section className="home_section portfolio">
                     <img src={portfolio} alt="" />
                     <div>
-                        <Link to="/portfolio">Confira meus projetos mais recentes em meu portfólio! <span>Clique</span> agora para ver como posso ajudar você a alcançar seus objetivos.</Link>
+                        <Link to="/portfolio">Confira meus projetos mais recentes <span>Clique</span> aqui para acessar meu portfólio!</Link>
                     </div>
                 </section>
 

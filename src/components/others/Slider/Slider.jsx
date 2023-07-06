@@ -7,11 +7,11 @@ function Slider({imagem_first, imagem_second,imagem_third}) {
             <HeroSlider
                 height="70vh"
                 autoplay= {{
-                    autoplayDuration:2000,
+                    autoplayDuration:1000,
                     autoplayDebounce: 0
                 }}
                 controller={{
-                    slidingDuration: 3000,
+                    slidingDuration: 1500,
                     slidingDelay: 10,
                 }}
                 animations={{
