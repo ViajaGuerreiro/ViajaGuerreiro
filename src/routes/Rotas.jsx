@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route  } from "react-router-dom";
 
-import Home from "../pages/home/Home.jsx";
+import Home from "./pages/home/Home.jsx";
 import Porfolio from "../pages/Portfolio/Portfolio.jsx";
 import Sobre from "../pages/Sobre/Sobre.jsx";
 
