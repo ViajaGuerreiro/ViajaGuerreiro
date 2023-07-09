@@ -13,7 +13,7 @@ import seta from '/img/seta.svg'
 
 //Pizzaria
 /* Web */
-import Pizza_1 from '/img/portfolio/PizzariaWeb/website1.png'
+/*import Pizza_1 from '/img/portfolio/PizzariaWeb/website1.png'*/
 import Pizza_2 from '/img/portfolio/PizzariaWeb/website2.png'
 import Pizza_3 from '/img/portfolio/PizzariaWeb/website3.png'
 /* Mobile */
@@ -46,7 +46,7 @@ function Porfolio() {
     
     const [project, setProject] = useState(0)
     //imagens
-    const imgFirst = [innerWidth >= 800 ? Pizza_1 : Pizza_4, innerWidth >= 800 ? ctt300_1 : ctt300_4, innerWidth >= 800 ? PokeNext_1 : PokeNext_4]
+    const imgFirst = [innerWidth >= 800 ? Pizza_4 : Pizza_4, innerWidth >= 800 ? ctt300_1 : ctt300_4, innerWidth >= 800 ? PokeNext_1 : PokeNext_4]
     const imgSecond = [innerWidth >= 800 ? Pizza_2 : Pizza_5, innerWidth >= 800 ? ctt300_2 : ctt300_5, innerWidth >= 800 ? PokeNext_2 : PokeNext_5]
     const imgThird = [innerWidth >= 800 ? Pizza_3 : Pizza_6, innerWidth >= 800 ? ctt300_3 : ctt300_6, innerWidth >= 800 ? PokeNext_3 : PokeNext_6]
     //Titulos
