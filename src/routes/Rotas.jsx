@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route  } from "react-router-dom";
 
-import Home from "../pages/home/Home.jsx";
+import Home from "../pages/Home/Home.jsx";
 import Porfolio from "../pages/Portfolio/Portfolio.jsx";
 import Sobre from "../pages/Sobre/Sobre.jsx";
 
@@ -9,7 +9,7 @@ function Rotas() {
         <BrowserRouter>
             <>
                 <Routes>
-                    <Route path="/ViajaGuerreiro" element={<Home />}></Route> 
+                    <Route path="/" element={<Home />}></Route>
                     
                     <Route path="/portfolio" element={<Porfolio />}></Route>
 
