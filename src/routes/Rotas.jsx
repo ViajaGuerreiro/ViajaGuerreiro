@@ -14,8 +14,6 @@ function Rotas() {
                     <Route path="/portfolio" element={<Porfolio />}></Route>
 
                     <Route path="/sobre" element={<Sobre />}></Route>
-
-                    <Route path="*" element={<Home />}></Route>
                 </Routes>
             </>
         </BrowserRouter>
