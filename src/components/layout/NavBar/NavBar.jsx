@@ -17,7 +17,7 @@ function NavBar() {
                 <img className='Logo' src={Logo} alt="Logo" title="Logo do site" />
             </div>
             <nav className={openNav ? 'active_nav' : ''}>
-                <Link to='/'>Inicio</Link> {/* /ViajaGuerreiro */}
+                <Link to='/ViajaGuerreiro'>Inicio</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/sobre">Sobre</Link>
             </nav>
