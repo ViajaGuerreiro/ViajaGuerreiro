@@ -11,7 +11,7 @@ function Footer({position}) {
             <a href="https://www.linkedin.com/in/thiago-lacerda-375aa81b5/" target='_blank'>
                 <img src={linkedin} alt='linkedin' title='linkedin'></img>
             </a>
-            <a href="https://wa.me/5511946864603" target='_blank'>
+            <a href="https://wa.me/5511985918621" target='_blank'>
                 <img src={whatsapp} alt="whatsapp" title='whatsapp' />
             </a>
         </footer>
